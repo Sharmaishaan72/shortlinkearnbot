@@ -19,5 +19,4 @@ async def echo_handler(message: Message) -> None:
         
         await message.answer(text=f'Your balance is {db.getbalance(message.from_user.id)} {os.getenv("currency")}\nEarn more by solving shortlinks')
     except Exception as e:
-        # But not all the types is supported to be copied so need to handle it
         await message.answer("Some error, try again!")
