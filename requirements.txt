@@ -2,3 +2,4 @@ quart
 aiogram
 aiohttp
 requests
+ngrok
