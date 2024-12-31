@@ -16,5 +16,5 @@ def checkshortlink(random_code):
     return reward
 
 async def runapp():
-    await app.run_task(host='0.0.0.0',port=5000)
+    await app.run_task(host='0.0.0.0',port=10000)
 
