@@ -10,9 +10,8 @@ A Telegram bot that allows users to earn rewards by interacting with shortlinks.
 ## Features
 
 - Users interact with shortlinks to earn rewards.
-- Integrated web application for managing bot settings and tracking statistics.
 - Uses ngrok for exposing the web interface during development.
-- Supports both Telegram polling and web interaction.
+- Uses both Telegram polling and web interaction.
 
 ---
 
