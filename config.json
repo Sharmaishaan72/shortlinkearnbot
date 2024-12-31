@@ -4,7 +4,7 @@
     "max_links_24h":"5",
     "BOT_TOKEN":"7781385698:AAFeENiflTj2ASX0sYnWZEPuCOWzS2LDM84",
     "ngrok_token":"2pdCvCb7Ef1IMjx1vuNdRa2w1Gc_2BT5saVM42jnQTM3sGcyE",
-    "ngrok_url":"immensely-well-oarfish.ngrok-free.app",
+    "ngrok_url":"shortlinkearnbot.onrender.com",
     "path_shortlink":"/shortlink",
     "shortlink_token":"d40e6d1a77b84c54a927eb6dfaf8aecb546bf22e",
     "shortlink_api":"https://cuty.io/api?api={token}&url={url}",
