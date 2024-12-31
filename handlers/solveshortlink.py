@@ -9,7 +9,7 @@ from utils.shortlinkcreator import ShortLinkCreator
 from utils.api import createmainlink
 
 
-# For each module with handlers we can create a separate router.
+
 shortlink_router = Router()
 shortlink = ShortLinkCreator()
 
@@ -32,5 +32,4 @@ async def echo_handler(message: Message) -> None:
       else:
         await message.answer(f'You have reached the maximum limit of shortlinks in 24 hours. Try again later')
     except Exception as e:
-        # But not all the types is supported to be copied so need to handle it
-        await message.answer(f"{e}")
+        await message.answer(f"some error , try again!")
