@@ -1,4 +1,5 @@
 import quart
+import ngrok
 import os
 import requests
 
@@ -16,5 +17,8 @@ def checkshortlink(random_code):
     return reward
 
 async def runapp():
-    await app.run_task(host='0.0.0.0',port=10000)
+    ngrok.set_auth_token(os.getenv("ngrok_token"))
+    listener = await ngrok.forward(5000,hostname=os.getenv("ngrok_url"))
+    print(listener.url())
+    await app.run_task(host='0.0.0.0',port=5000)
 
