@@ -1,3 +1,4 @@
 quart
 aiogram
 aiohttp
+requests
